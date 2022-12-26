@@ -1,0 +1,238 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../Img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+}
+/* chung */
+#part1 .logo-seach{
+    display: flex;
+}
+/* logo */
+#part1 .logo-seach .logo a {
+    text-decoration: none;
+}
+#part1 .logo-seach .logo a img {
+    margin: 15px;
+    width: 100px;
+    height: 100px;
+}
+/* menu */
+#part1 .logo-seach .menu ul {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 150px;
+}
+#part1 .logo-seach .menu ul li {
+    list-style: none;
+    margin-left: 60px;
+    padding-left: -20px;
+    position: relative;
+    background-color: black;
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#part1 .logo-seach .menu ul li:hover {
+    transform: scale(1.1);
+}
+#part1 .logo-seach .menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    width: 50px;
+    color: rgb(255, 0, 0);
+}
+#part1 .logo-seach .menu ul li a:hover{
+    color: rgb(51, 255, 0);
+}
+/* menu-drop */
+#part1 .logo-seach .menu ul li > .sub-menu {
+    display: none;
+    position: absolute;
+}
+#part1 .logo-seach .menu ul li > .sub-menu {
+    margin-left: 40px;
+}
+#part1 .logo-seach .menu ul li > .sub-menu .drop {
+    background: none;
+    width: 160px;
+    height: 210px;
+    display: inline-block;
+    margin-top: -30px;
+    margin-left: -100px;
+    padding-top: 20px;
+    text-align: center;
+
+}
+#part1 .logo-seach .menu ul li > .sub-menu .drop li {
+    padding-bottom: 15px;
+}
+#part1 .logo-seach .menu ul li > .sub-menu .drop li a:hover{
+    border-bottom: 3px solid red;
+}
+#part1 .logo-seach .menu ul li:hover .sub-menu{
+    display: block;
+}
+/* thanh seach */
+#part1 .logo-seach .seach{
+    margin-top: 20px;
+    height: 30px;
+}
+#part1 .logo-seach .seach .wapper {
+    display: flex;
+}
+#part1 .logo-seach .seach .wapper input {
+    width: 500px;
+    height: 35px;
+    background: rgb(105, 105, 105);
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+    color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10px;
+}
+#part1 .logo-seach .seach .wapper button {
+    width: 30px;
+    height: 33px;
+    background: none;   
+    outline: none;
+    border: none;
+    margin-top: 11px; 
+    margin-left: -31px;
+    border-left: 2px solid black;
+}
+#part1 .logo-seach .seach .wapper button i {
+    font-size: 19px;
+}
+/* button login */
+#part1 .logo-seach .login a i {
+    margin-top: 32px;
+    margin-left: 140px;
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+}
+#part1 .logo-seach .login a i:hover {
+    transform: scale(1.2);
+}
+/* chung */
+#part2 .manga1, #part2 .manga2, #part2 .manga3, #part2 .manga4{
+    display: flex;
+}
+/* phiêu lưu [manga1] */
+#part2 .manga1 .naruto a , #part2 .manga1 .boruto a , #part2 .manga1 .onepiece a , #part2 .manga1 .demon a {
+    margin-left: -35px;
+}
+#part2 .manga1 .naruto a img, #part2 .manga1 .boruto a img, #part2 .manga1 .onepiece a img, #part2 .manga1 .demon a img{
+    width: 270px;
+    height: 420px;
+    margin-top: 140px;
+    margin-left: 120px;
+    margin-bottom: 130px;
+    border-bottom: 8px solid red;
+    border-left: 5px solid red;
+    border-right: 5px solid red;
+    border-radius: 30px;
+}
+#part2 .manga1 .naruto a img:hover, #part2 .manga1 .boruto a img:hover, #part2 .manga1 .onepiece a img:hover, #part2 .manga1 .demon a img:hover{
+    transform: scale(1.1);
+}
+/* khoa học [manga2] */
+#part2 .manga1 .zero a , #part2 .manga1 .drstone a , #part2 .manga1 .neverland a , #part2 .manga1 .steingate a {
+    margin-left: -70px;
+}
+#part2 .manga2 .zero a img, #part2 .manga2 .drstone a img, #part2 .manga2 .neverland a img, #part2 .manga2 .steingate a img{
+    width: 270px;
+    height: 420px;
+    margin-top: 30px;
+    margin-left: 85px;
+    margin-bottom: 130px;
+    border-bottom: 8px solid red;
+    border-left: 5px solid red;
+    border-right: 5px solid red;
+    border-radius: 30px;
+}
+#part2 .manga2 .zero a img:hover, #part2 .manga2 .drstone a img:hover, #part2 .manga2 .neverland a img:hover, #part2 .manga2 .steingate a img:hover{
+    transform: scale(1.1);
+}
+/* trinh thám [manga3] */
+#part2 .manga3 .conan a , #part2 .manga3 .deadnote a , #part2 .manga3 .huyoka a , #part2 .manga3 .spyx a {
+    margin-left: -5px;
+}
+#part2 .manga3 .conan a img, #part2 .manga3 .deadnote a img, #part2 .manga3 .huyoka a img, #part2 .manga3 .spyx a img{
+    width: 280px;
+    height: 430px;
+    margin-top: 30px;
+    margin-left: 85px;
+    margin-bottom: 130px;
+    border-bottom: 8px solid red;
+    border-left: 5px solid red;
+    border-right: 5px solid red;
+    border-radius: 30px;
+}
+#part2 .manga3 .conan a img:hover, #part2 .manga3 .deadnote a img:hover, #part2 .manga3 .huyoka a img:hover, #part2 .manga3 .spyx a img:hover{
+    transform:scale(1.1);
+}
+/* cổ trang [manga4 */
+#part2 .manga4 .dauladailuc a , #part2 .manga4 .dauphathuongkhung a , #part2 .manga4 .hoathiencot a , #part2 .manga4 .thanhvanchi a {
+    margin-left: -5px;
+}
+#part2 .manga4 .dauladailuc a img, #part2 .manga4 .dauphathuongkhung a img, #part2 .manga4 .hoathiencot a img, #part2 .manga4 .thanhvanchi a img{
+    width: 280px;
+    height: 430px;
+    margin-top: 30px;
+    margin-left: 85px;
+    margin-bottom: 130px;
+    border-bottom: 8px solid red;
+    border-left: 5px solid red;
+    border-right: 5px solid red;
+    border-radius: 30px;
+}
+#part2 .manga4 .dauladailuc a img:hover, #part2 .manga4 .dauphathuongkhung a img:hover, #part2 .manga4 .hoathiencot a img:hover, #part2 .manga4 .thanhvanchi a img:hover{
+    transform:scale(1.1);
+}
+/* end */
+.end {
+    background-color: black;
+    height: 230px;
+    border-top: 5px solid rgb(255, 102, 0);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.end h1 {
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+.end h2 {
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 5px;
+}
+.end h2 a {
+    text-decoration: none;
+    color: red;
+}
+.end .icon {
+    margin-top: 15px;
+    text-align: center;
+}
+.end .icon a {
+    text-decoration: none;
+}
+.end .icon a i {
+    font-size: 25px;
+    color: rgb(240, 255, 241);
+    margin-left: 5px;
+}

@@ -1,0 +1,225 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../Img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 1550px;
+}
+/* chung */
+#part1 .logo-seach{
+    display: flex;
+}
+/* logo */
+#part1 .logo-seach .logo a {
+    text-decoration: none;
+}
+#part1 .logo-seach .logo a img {
+    margin: 15px;
+    width: 100px;
+    height: 100px;
+}
+/* menu */
+#part1 .logo-seach .menu ul {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 150px;
+}
+#part1 .logo-seach .menu ul li {
+    list-style: none;
+    margin-left: 60px;
+    padding-left: -20px;
+    position: relative;
+    background-color: black;
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#part1 .logo-seach .menu ul li:hover {
+    transform: scale(1.1);
+}
+#part1 .logo-seach .menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    width: 50px;
+    color: rgb(255, 0, 0);
+}
+#part1 .logo-seach .menu ul li a:hover{
+    color: rgb(51, 255, 0);
+}
+/* menu-drop */
+#part1 .logo-seach .menu ul li > .sub-menu {
+    display: none;
+    position: absolute;
+}
+#part1 .logo-seach .menu ul li > .sub-menu {
+    margin-left: 40px;
+}
+#part1 .logo-seach .menu ul li > .sub-menu .drop {
+    background: none;
+    width: 160px;
+    height: 210px;
+    display: inline-block;
+    margin-top: -30px;
+    margin-left: -100px;
+    padding-top: 20px;
+    text-align: center;
+
+}
+#part1 .logo-seach .menu ul li > .sub-menu .drop li {
+    padding-bottom: 15px;
+}
+#part1 .logo-seach .menu ul li > .sub-menu .drop li a:hover{
+    border-bottom: 3px solid red;
+}
+#part1 .logo-seach .menu ul li:hover .sub-menu{
+    display: block;
+}
+/* thanh seach */
+#part1 .logo-seach .seach{
+    margin-top: 20px;
+    height: 30px;
+}
+#part1 .logo-seach .seach .wapper {
+    display: flex;
+}
+#part1 .logo-seach .seach .wapper input {
+    width: 500px;
+    height: 35px;
+    background: rgb(105, 105, 105);
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+    color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10px;
+}
+#part1 .logo-seach .seach .wapper button {
+    width: 30px;
+    height: 33px;
+    background: none;   
+    outline: none;
+    border: none;
+    margin-top: 11px; 
+    margin-left: -31px;
+    border-left: 2px solid black;
+}
+#part1 .logo-seach .seach .wapper button i {
+    font-size: 19px;
+}
+/* button login */
+#part1 .logo-seach .login a i {
+    margin-top: 32px;
+    margin-left: 140px;
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+}
+#part1 .logo-seach .login a i:hover {
+    transform: scale(1.2);
+}
+/* inbox manga */
+.naruto img {
+    width: 1200px;
+    margin-left: 150px;
+}
+/* button */
+.next-again {
+    width: 1550px;
+}
+.next-again .next {
+    margin-right: 1100px;
+    margin-left: 130px;
+}
+.next-again a button{
+    background: red;
+    width: 80px;
+    height: 45px;
+    color: aliceblue;
+    border-radius: 30px;
+
+}
+/* comment */
+.comment{
+    text-align: center;
+}
+.comment h1 {
+    height: 60px;
+    line-height: 45px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    background: rgb(0, 217, 255);
+    border: 2mm ridge rgb(17, 255, 0);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-family:'Times New Roman', Times, serif
+}
+.comment {
+    background: black;
+    height:600px;
+    border-radius: 30px;
+}
+.comment input {
+    width: 300px;
+    height: 40px;
+    background: rgb(65, 65, 65);
+    outline: none;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: aliceblue;
+    font-size: 15px;
+    padding-left: 10px;
+    margin-top: 15px;
+}
+.comment button {
+    background: rgb(255, 132, 0);
+    width: 50px;
+    height: 35px;
+    border-radius: 20px;
+}
+.comment .allcomment {
+    height: 40px;
+    width: 120px;
+}
+/* end */
+.end {
+    background-color: black;
+    height: 230px;
+    border-top: 5px solid rgb(255, 102, 0);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.end h1 {
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+.end h2 {
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 5px;
+}
+.end h2 a {
+    text-decoration: none;
+    color: red;
+}
+.end .icon {
+    margin-top: 15px;
+    text-align: center;
+}
+.end .icon a {
+    text-decoration: none;
+}
+.end .icon a i {
+    font-size: 25px;
+    color: rgb(240, 255, 241);
+    margin-left: 5px;
+}
