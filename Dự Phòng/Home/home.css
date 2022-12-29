@@ -124,6 +124,8 @@ body{
 }
 #part1 .logo-seach .login a i:hover {
     transform: scale(1.2);
+    transition: 0.4s;
+    color: rgb(0, 255, 0);
 }
 /* chung */
 #part2 .manga1, #part2 .manga2, #part2 .manga3, #part2 .manga4{
